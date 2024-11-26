@@ -6,7 +6,7 @@
 #    By: stetrel <stetrel@42angouleme.fr>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/08 21:59:22 by stetrel           #+#    #+#              #
-#    Updated: 2024/10/13 21:32:12 by stetrel          ###   ########.fr        #
+#    Updated: 2024/11/26 07:54:06 by stetrel          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,53 +14,63 @@ NAME		:= libft.a
 
 CC			:= cc
 
+IFLAGS		:= -I ./include
+
+SRCS_DIR	:=	src
+
 OBJS_DIR	:= .objs
 
-SRCS			:= ft_isalpha.c \
-		   		ft_isdigit.c \
-		   		ft_isalnum.c \
-		   		ft_isascii.c \
-		   		ft_isprint.c \
-		   		ft_strlen.c \
-		   		ft_memset.c \
-		   		ft_bzero.c \
-		   		ft_memcpy.c \
-		   		ft_memmove.c \
-		   		ft_toupper.c \
-		   		ft_tolower.c \
-		   		ft_strchr.c \
-		   		ft_strrchr.c \
-		   		ft_strncmp.c \
-		   		ft_memchr.c \
-		   		ft_memcmp.c \
-		   		ft_strnstr.c \
-		   		ft_atoi.c \
-		   		ft_strlcpy.c \
-		   		ft_strlcat.c \
-		   		ft_calloc.c \
-		   		ft_strdup.c \
-		   		ft_split.c \
-		   		ft_substr.c \
-		   		ft_strjoin.c \
-		   		ft_strtrim.c \
-		   		ft_strmapi.c \
-		   		ft_striteri.c \
-		   		ft_putchar_fd.c \
-		   		ft_putstr_fd.c \
-		   		ft_putendl_fd.c \
-		   		ft_putnbr_fd.c \
-		   		ft_itoa.c \
+SRCS	:=		ctype/ft_isalpha.c \
+				ctype/ft_isascii.c \
+				ctype/ft_isprint.c \
+				ctype/ft_isdigits.c \
+				ctype/ft_isalnum.c \
+				ctype/ft_toupper.c \
+				ctype/ft_tolower.c \
+				string/ft_atoi.c \
+				string/ft_itoa.c \
+				string/ft_split.c \
+				string/ft_strchr.c \
+				string/ft_strdup.c \
+				string/ft_strjoin.c \
+				string/ft_strlcat.c \
+				string/ft_strlcpy \
+				string/ft_strlen.c \
+				string/ft_strncmp.c \
+				string/ft_strnstr.c \
+				string/ft_strrchr.c \
+				string/ft_strtrim.c \
+				string/ft_substr.c \
+		   		string/ft_strjoin.c \
+		   		string/ft_strtrim.c \
+		   		string/ft_strmapi.c \
+		   		string/ft_striteri.c \
+		   		string/ft_putchar_fd.c \
+		   		string/ft_putstr_fd.c \
+		   		string/ft_putendl_fd.c \
+		   		string/ft_putnbr_fd.c \
+		   		string/ft_itoa.c \
+				memory/ft_calloc.c \
+				memory/ft_memset.c \
+				memory/ft_memcpy.c \
+				memory/ft_memmove.c \
+				memory/ft_memcmp.c \
+				memory/ft_memchr.c \
+				memory/ft_calloc.c \
+				memory/ft_bzero.c \
 
 
-SRCS_BONUS 		:= ft_lstnew.c \
-			  	ft_lstadd_front.c \
-			  	ft_lstsize.c \
-			  	ft_lstlast.c \
-			  	ft_lstadd_back.c \
-			  	ft_lstdelone.c \
-			  	ft_lstclear.c \
-			  	ft_lstiter.c \
-			  	ft_lstmap.c \
+SRCS_BONUS 		:= 	lists/ft_lstnew.c \
+			  		lists/ft_lstadd_front.c \
+			  		lists/ft_lstsize.c \
+			  		lists/ft_lstlast.c \
+			  		lists/ft_lstadd_back.c \
+			  		lists/ft_lstdelone.c \
+			  		lists/ft_lstclear.c \
+			  		lists/ft_lstiter.c \
+			  		lists/ft_lstmap.c \
+
+SRCS	:=	$(addprefix $(SRCS_DIR)/, $(SRCS))
 
 OBJS			:= $(addprefix $(OBJS_DIR)/, $(SRCS:%.c=%.o))
 
