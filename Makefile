@@ -6,7 +6,7 @@
 #    By: stetrel <stetrel@42angouleme.fr>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/08 21:59:22 by stetrel           #+#    #+#              #
-#    Updated: 2024/11/26 07:54:06 by stetrel          ###   ########.fr        #
+#    Updated: 2024/11/26 16:43:55 by stetrel          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -23,7 +23,7 @@ OBJS_DIR	:= .objs
 SRCS	:=		ctype/ft_isalpha.c \
 				ctype/ft_isascii.c \
 				ctype/ft_isprint.c \
-				ctype/ft_isdigits.c \
+				ctype/ft_isdigit.c \
 				ctype/ft_isalnum.c \
 				ctype/ft_toupper.c \
 				ctype/ft_tolower.c \
@@ -34,7 +34,7 @@ SRCS	:=		ctype/ft_isalpha.c \
 				string/ft_strdup.c \
 				string/ft_strjoin.c \
 				string/ft_strlcat.c \
-				string/ft_strlcpy \
+				string/ft_strlcpy.c \
 				string/ft_strlen.c \
 				string/ft_strncmp.c \
 				string/ft_strnstr.c \
@@ -43,12 +43,12 @@ SRCS	:=		ctype/ft_isalpha.c \
 				string/ft_substr.c \
 		   		string/ft_strjoin.c \
 		   		string/ft_strtrim.c \
-		   		string/ft_strmapi.c \
-		   		string/ft_striteri.c \
-		   		string/ft_putchar_fd.c \
-		   		string/ft_putstr_fd.c \
-		   		string/ft_putendl_fd.c \
-		   		string/ft_putnbr_fd.c \
+		   		fd/ft_strmapi.c \
+		   		fd/ft_striteri.c \
+		   		fd/ft_putchar_fd.c \
+		   		fd/ft_putstr_fd.c \
+		   		fd/ft_putendl_fd.c \
+		   		fd/ft_putnbr_fd.c \
 		   		string/ft_itoa.c \
 				memory/ft_calloc.c \
 				memory/ft_memset.c \
@@ -72,6 +72,8 @@ SRCS_BONUS 		:= 	lists/ft_lstnew.c \
 
 SRCS	:=	$(addprefix $(SRCS_DIR)/, $(SRCS))
 
+SRCS_BONUS 		:= 	$(addprefix $(SRCS_DIR)/, $(SRCS_BONUS))
+
 OBJS			:= $(addprefix $(OBJS_DIR)/, $(SRCS:%.c=%.o))
 
 OBJS_BONUS		:= $(addprefix $(OBJS_DIR)/, $(SRCS_BONUS:%.c=%.o))
@@ -90,10 +92,10 @@ $(NAME): $(OBJS)
 	@ar rc $(NAME) $^	
 $(OBJS_DIR)/%.o: %.c	
 	@$(DIR_UP)
-	@$(CC) $(CFLAGS) -c $< -o $@
+	@$(CC) $(CFLAGS) $(IFLAGS) -c $< -o $@
 
 bonus: $(OBJS) $(OBJS_BONUS)
-	ar rc $(NAME) $(OBJS) $(OBJS_BONUS)
+	@ar rc $(NAME) $(OBJS) $(OBJS_BONUS)
 
 clean:
 	@$(RM) $(OBJS_DIR)
@@ -108,4 +110,12 @@ re: fclean all
 
 ################################################################################
 
+GREEN	= \033[0;32m
 
+YELLOW	= \033[0;33m
+
+RED		= \033[31;49;1m
+
+RESET	= \033[0m
+
+################################################################################
