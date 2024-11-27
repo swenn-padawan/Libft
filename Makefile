@@ -6,7 +6,7 @@
 #    By: stetrel <stetrel@42angouleme.fr>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/08 21:59:22 by stetrel           #+#    #+#              #
-#    Updated: 2024/11/26 16:43:55 by stetrel          ###   ########.fr        #
+#    Updated: 2024/11/26 22:03:58 by stetrel          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -58,6 +58,7 @@ SRCS	:=		ctype/ft_isalpha.c \
 				memory/ft_memchr.c \
 				memory/ft_calloc.c \
 				memory/ft_bzero.c \
+				malloc/free_manager.c \
 
 
 SRCS_BONUS 		:= 	lists/ft_lstnew.c \
