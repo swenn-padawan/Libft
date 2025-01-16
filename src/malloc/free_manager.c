@@ -6,7 +6,7 @@
 /*   By: stetrel <stetrel@42angouleme.fr>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 22:01:33 by stetrel           #+#    #+#             */
-/*   Updated: 2024/11/26 22:36:31 by stetrel          ###   ########.fr       */
+/*   Updated: 2025/01/16 18:22:24 by stetrel          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,35 @@ static void	free_alloc_collector(void)
 	free(tmp);
 }
 
-void	push(void *malloc_address)
+void lp_free(void *address)
+{
+    t_list **lst;
+    t_list *current;
+    t_list *prev;
+
+	lst = alloc_collector();
+	current = *lst;
+	prev = NULL;
+    while (current)
+    {
+        if (current->content == address)
+        {
+            if (prev == NULL)
+                *lst = current->next;
+            else
+                prev->next = current->next;
+
+            free(current->content);
+            free(current);
+            return;
+        }
+        prev = current;
+        current = current->next;
+    }
+}
+
+
+void	lp_push(void *malloc_address)
 {
 	t_list	**lst;
 
