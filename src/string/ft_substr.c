@@ -6,7 +6,7 @@
 /*   By: stetrel <stetrel@42angouleme.fr>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/09 06:26:23 by stetrel           #+#    #+#             */
-/*   Updated: 2024/10/11 20:29:59 by stetrel          ###   ########.fr       */
+/*   Updated: 2025/01/19 14:53:28 by stetrel          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,11 +20,11 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	if (!s)
 		return (NULL);
 	if (start > ft_strlen(s))
-		return (ft_calloc(1, 1));
+		return (lp_alloc(1));
 	size = ft_strlen(s + start);
 	if (size < len)
 		len = size;
-	str = ft_calloc(len + 1, sizeof(char));
+	str = lp_alloc(len + 1);
 	if (!str)
 		return (NULL);
 	ft_strlcpy(str, s + start, len + 1);

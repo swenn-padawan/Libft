@@ -6,7 +6,7 @@
 /*   By: stetrel <stetrel@42angouleme.fr>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/07 19:50:30 by stetrel           #+#    #+#             */
-/*   Updated: 2025/01/16 18:25:32 by stetrel          ###   ########.fr       */
+/*   Updated: 2025/01/19 16:08:54 by stetrel          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,9 @@
 
 # include <stdlib.h>
 # include <unistd.h>
+# include <stdint.h>
+# include <math.h>
+# include "get_next_line.h"
 
 typedef struct s_list
 {
@@ -32,6 +35,7 @@ int		ft_isdigit(int c);
 int		ft_isalnum(int c);
 int		ft_isascii(int c);
 int		ft_isprint(int c);
+int		ft_isspace(int c);
 int		ft_memcmp(const void *s1, const void *s2, size_t n);
 int		ft_strncmp(const char *s1, const char *s2, size_t n);
 int		ft_atoi(const char *nptr);
@@ -44,7 +48,7 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size);
 size_t	ft_strlen(const char *s);
 size_t	ft_strlcat(char *dst, const char *src, size_t size);
 char	*ft_strrchr(const char *s, int c);
-char	*ft_strchr(const char *s, int c);
+char	*ft_strchr(char *s, int c);
 char	*ft_strdup(const char *s);
 char	**ft_split(const char *str, char c);
 char	*ft_substr(char const *s, unsigned int start, size_t len);
@@ -70,7 +74,11 @@ t_list	*ft_lstnew(void *content);
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
 
 //MALLOC
-void	lp_push(void *malloc_address);
+void	*lp_alloc(size_t size);
 void	lp_free(void *address);
+
+//FLOAT
+double	ft_atof(char *nptr, int *error);
+float	ft_strtof(char *nptr, char **remain, int *error);
 
 #endif

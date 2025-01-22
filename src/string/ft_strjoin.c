@@ -6,7 +6,7 @@
 /*   By: stetrel <stetrel@42angouleme.fr>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/09 14:49:08 by stetrel           #+#    #+#             */
-/*   Updated: 2024/10/14 12:46:31 by stetrel          ###   ########.fr       */
+/*   Updated: 2025/01/19 14:52:05 by stetrel          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ char	*ft_strjoin(char const *s1, char const *s2)
 
 	if (!s1 || !s2)
 		return (NULL);
-	str = malloc ((ft_strlen(s1) + ft_strlen(s2) + 1) * sizeof(char));
+	str = lp_alloc((ft_strlen(s1) + ft_strlen(s2) + 1) * sizeof(char));
 	if (str)
 	{
 		ft_strlcpy(str, s1, ft_strlen(s1) + 1);

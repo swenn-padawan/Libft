@@ -6,7 +6,7 @@
 /*   By: stetrel <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/07 13:36:50 by stetrel           #+#    #+#             */
-/*   Updated: 2024/11/26 16:30:30 by stetrel          ###   ########.fr       */
+/*   Updated: 2025/01/19 14:07:04 by stetrel          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@ size_t	ft_strlen(const char *s)
 {
 	const char		*start;
 
+	if (!s || !*s)
+		return (0);
 	start = s;
 	while (*s)
 		s++;

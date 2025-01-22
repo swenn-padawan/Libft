@@ -6,7 +6,7 @@
 #    By: stetrel <stetrel@42angouleme.fr>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/08 21:59:22 by stetrel           #+#    #+#              #
-#    Updated: 2025/01/16 18:27:05 by stetrel          ###   ########.fr        #
+#    Updated: 2025/01/22 16:55:12 by stetrel          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -70,6 +70,9 @@ SRCS	:=		ctype/ft_isalpha.c \
 			  	lists/ft_lstclear.c \
 			  	lists/ft_lstiter.c \
 			  	lists/ft_lstmap.c \
+				float/ft_atof.c \
+				float/ft_strtof.c \
+				gnl/get_next_line.c \
 
 SRCS	:=	$(addprefix $(SRCS_DIR)/, $(SRCS))
 

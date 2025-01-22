@@ -6,7 +6,7 @@
 /*   By: stetrel <stetrel@42angouleme.fr>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/11 02:30:46 by stetrel           #+#    #+#             */
-/*   Updated: 2024/10/14 12:38:12 by stetrel          ###   ########.fr       */
+/*   Updated: 2025/01/19 14:54:06 by stetrel          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ char	*ft_itoa(int n)
 	if (n == -2147483648)
 		return (ft_strdup("-2147483648"));
 	size = occ(n);
-	str = ft_calloc(size + 1, sizeof(char));
+	str = lp_alloc(size + 1 * sizeof(char));
 	if (!str)
 		return (NULL);
 	if (n < 0)
