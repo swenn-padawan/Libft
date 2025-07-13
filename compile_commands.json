@@ -1,0 +1,852 @@
+[
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/ctype/ft_isalpha.c",
+   "-o",
+   ".objs/src/ctype/ft_isalpha.o"
+  ],
+  "file": "src/ctype/ft_isalpha.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/ctype/ft_isascii.c",
+   "-o",
+   ".objs/src/ctype/ft_isascii.o"
+  ],
+  "file": "src/ctype/ft_isascii.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/ctype/ft_isprint.c",
+   "-o",
+   ".objs/src/ctype/ft_isprint.o"
+  ],
+  "file": "src/ctype/ft_isprint.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/ctype/ft_isdigit.c",
+   "-o",
+   ".objs/src/ctype/ft_isdigit.o"
+  ],
+  "file": "src/ctype/ft_isdigit.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/ctype/ft_isalnum.c",
+   "-o",
+   ".objs/src/ctype/ft_isalnum.o"
+  ],
+  "file": "src/ctype/ft_isalnum.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/ctype/ft_toupper.c",
+   "-o",
+   ".objs/src/ctype/ft_toupper.o"
+  ],
+  "file": "src/ctype/ft_toupper.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/ctype/ft_tolower.c",
+   "-o",
+   ".objs/src/ctype/ft_tolower.o"
+  ],
+  "file": "src/ctype/ft_tolower.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/string/ft_atoi.c",
+   "-o",
+   ".objs/src/string/ft_atoi.o"
+  ],
+  "file": "src/string/ft_atoi.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/string/ft_itoa.c",
+   "-o",
+   ".objs/src/string/ft_itoa.o"
+  ],
+  "file": "src/string/ft_itoa.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/string/ft_split.c",
+   "-o",
+   ".objs/src/string/ft_split.o"
+  ],
+  "file": "src/string/ft_split.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/string/ft_strchr.c",
+   "-o",
+   ".objs/src/string/ft_strchr.o"
+  ],
+  "file": "src/string/ft_strchr.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/string/ft_strdup.c",
+   "-o",
+   ".objs/src/string/ft_strdup.o"
+  ],
+  "file": "src/string/ft_strdup.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/string/ft_strjoin.c",
+   "-o",
+   ".objs/src/string/ft_strjoin.o"
+  ],
+  "file": "src/string/ft_strjoin.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/string/ft_strlcat.c",
+   "-o",
+   ".objs/src/string/ft_strlcat.o"
+  ],
+  "file": "src/string/ft_strlcat.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/string/ft_strlcpy.c",
+   "-o",
+   ".objs/src/string/ft_strlcpy.o"
+  ],
+  "file": "src/string/ft_strlcpy.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/string/ft_strlen.c",
+   "-o",
+   ".objs/src/string/ft_strlen.o"
+  ],
+  "file": "src/string/ft_strlen.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/string/ft_strncmp.c",
+   "-o",
+   ".objs/src/string/ft_strncmp.o"
+  ],
+  "file": "src/string/ft_strncmp.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/string/ft_strnstr.c",
+   "-o",
+   ".objs/src/string/ft_strnstr.o"
+  ],
+  "file": "src/string/ft_strnstr.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/string/ft_strrchr.c",
+   "-o",
+   ".objs/src/string/ft_strrchr.o"
+  ],
+  "file": "src/string/ft_strrchr.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/string/ft_strtrim.c",
+   "-o",
+   ".objs/src/string/ft_strtrim.o"
+  ],
+  "file": "src/string/ft_strtrim.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/string/ft_substr.c",
+   "-o",
+   ".objs/src/string/ft_substr.o"
+  ],
+  "file": "src/string/ft_substr.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/string/ft_strcmp.c",
+   "-o",
+   ".objs/src/string/ft_strcmp.o"
+  ],
+  "file": "src/string/ft_strcmp.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/string/strsjoin.c",
+   "-o",
+   ".objs/src/string/strsjoin.o"
+  ],
+  "file": "src/string/strsjoin.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/string/ft_strtol.c",
+   "-o",
+   ".objs/src/string/ft_strtol.o"
+  ],
+  "file": "src/string/ft_strtol.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/fd/ft_strmapi.c",
+   "-o",
+   ".objs/src/fd/ft_strmapi.o"
+  ],
+  "file": "src/fd/ft_strmapi.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/fd/ft_striteri.c",
+   "-o",
+   ".objs/src/fd/ft_striteri.o"
+  ],
+  "file": "src/fd/ft_striteri.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/fd/ft_putchar_fd.c",
+   "-o",
+   ".objs/src/fd/ft_putchar_fd.o"
+  ],
+  "file": "src/fd/ft_putchar_fd.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/fd/ft_putstr_fd.c",
+   "-o",
+   ".objs/src/fd/ft_putstr_fd.o"
+  ],
+  "file": "src/fd/ft_putstr_fd.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/fd/ft_putendl_fd.c",
+   "-o",
+   ".objs/src/fd/ft_putendl_fd.o"
+  ],
+  "file": "src/fd/ft_putendl_fd.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/fd/ft_putnbr_fd.c",
+   "-o",
+   ".objs/src/fd/ft_putnbr_fd.o"
+  ],
+  "file": "src/fd/ft_putnbr_fd.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/memory/ft_calloc.c",
+   "-o",
+   ".objs/src/memory/ft_calloc.o"
+  ],
+  "file": "src/memory/ft_calloc.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/memory/ft_memset.c",
+   "-o",
+   ".objs/src/memory/ft_memset.o"
+  ],
+  "file": "src/memory/ft_memset.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/memory/ft_memcpy.c",
+   "-o",
+   ".objs/src/memory/ft_memcpy.o"
+  ],
+  "file": "src/memory/ft_memcpy.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/memory/ft_memmove.c",
+   "-o",
+   ".objs/src/memory/ft_memmove.o"
+  ],
+  "file": "src/memory/ft_memmove.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/memory/ft_memcmp.c",
+   "-o",
+   ".objs/src/memory/ft_memcmp.o"
+  ],
+  "file": "src/memory/ft_memcmp.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/memory/ft_memchr.c",
+   "-o",
+   ".objs/src/memory/ft_memchr.o"
+  ],
+  "file": "src/memory/ft_memchr.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/memory/ft_bzero.c",
+   "-o",
+   ".objs/src/memory/ft_bzero.o"
+  ],
+  "file": "src/memory/ft_bzero.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/malloc/free_manager.c",
+   "-o",
+   ".objs/src/malloc/free_manager.o"
+  ],
+  "file": "src/malloc/free_manager.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/lists/ft_lstnew.c",
+   "-o",
+   ".objs/src/lists/ft_lstnew.o"
+  ],
+  "file": "src/lists/ft_lstnew.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/lists/ft_lstadd_front.c",
+   "-o",
+   ".objs/src/lists/ft_lstadd_front.o"
+  ],
+  "file": "src/lists/ft_lstadd_front.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/lists/ft_lstsize.c",
+   "-o",
+   ".objs/src/lists/ft_lstsize.o"
+  ],
+  "file": "src/lists/ft_lstsize.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/lists/ft_lstlast.c",
+   "-o",
+   ".objs/src/lists/ft_lstlast.o"
+  ],
+  "file": "src/lists/ft_lstlast.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/lists/ft_lstadd_back.c",
+   "-o",
+   ".objs/src/lists/ft_lstadd_back.o"
+  ],
+  "file": "src/lists/ft_lstadd_back.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/lists/ft_lstdelone.c",
+   "-o",
+   ".objs/src/lists/ft_lstdelone.o"
+  ],
+  "file": "src/lists/ft_lstdelone.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/lists/ft_lstclear.c",
+   "-o",
+   ".objs/src/lists/ft_lstclear.o"
+  ],
+  "file": "src/lists/ft_lstclear.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/lists/ft_lstiter.c",
+   "-o",
+   ".objs/src/lists/ft_lstiter.o"
+  ],
+  "file": "src/lists/ft_lstiter.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/lists/ft_lstmap.c",
+   "-o",
+   ".objs/src/lists/ft_lstmap.o"
+  ],
+  "file": "src/lists/ft_lstmap.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/float/ft_atof.c",
+   "-o",
+   ".objs/src/float/ft_atof.o"
+  ],
+  "file": "src/float/ft_atof.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/float/ft_strtof.c",
+   "-o",
+   ".objs/src/float/ft_strtof.o"
+  ],
+  "file": "src/float/ft_strtof.c"
+ },
+ {
+  "directory": "/home/stetrel/42cursus/Libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g",
+   "-I",
+   "./include",
+   "-c",
+   "src/gnl/get_next_line.c",
+   "-o",
+   ".objs/src/gnl/get_next_line.o"
+  ],
+  "file": "src/gnl/get_next_line.c"
+ }
+]

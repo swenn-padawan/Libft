@@ -6,7 +6,7 @@
 /*   By: stetrel <stetrel@42angouleme.fr>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/07 19:50:30 by stetrel           #+#    #+#             */
-/*   Updated: 2025/01/19 16:08:54 by stetrel          ###   ########.fr       */
+/*   Updated: 2025/07/13 17:28:05 by stetrel          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 # include <unistd.h>
 # include <stdint.h>
 # include <math.h>
+# include <stdbool.h>
 # include "get_next_line.h"
 
 typedef struct s_list
@@ -73,12 +74,14 @@ t_list	*ft_lstlast(t_list *lst);
 t_list	*ft_lstnew(void *content);
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
 
-//MALLOC
+//leak protector
 void	*lp_alloc(size_t size);
 void	lp_free(void *address);
 
-//FLOAT
+//float convertion
 double	ft_atof(char *nptr, int *error);
 float	ft_strtof(char *nptr, char **remain, int *error);
+
+long	ft_strtol(char *ptr, char **end, int base);
 
 #endif

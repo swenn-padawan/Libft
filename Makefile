@@ -6,7 +6,7 @@
 #    By: stetrel <stetrel@42angouleme.fr>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/08 21:59:22 by stetrel           #+#    #+#              #
-#    Updated: 2025/04/27 19:18:46 by stetrel          ###   ########.fr        #
+#    Updated: 2025/07/13 17:25:24 by stetrel          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -45,6 +45,7 @@ SRCS	:=		ctype/ft_isalpha.c \
 		   		string/ft_strtrim.c \
 				string/ft_strcmp.c \
 				string/strsjoin.c \
+				string/ft_strtol.c \
 		   		fd/ft_strmapi.c \
 		   		fd/ft_striteri.c \
 		   		fd/ft_putchar_fd.c \
